@@ -38,12 +38,12 @@ header > div.logo {
 	margin-top: 5px; 
 	margin-bottom: 10px;
 	text-align: left;
-	border-radius: 10px;
+	border-radius: 50px;
 
 }
 
-img {
-	border-radius: 10px;
+#logo {
+	border-radius: 50px;
 }
 
 
@@ -55,12 +55,13 @@ header > nav {
 
 nav > ul > li {
 	text-align: center;
-	font-size: 0.8em;
+
 	line-height: 50px;
 	list-style: none;
 } 
 nav > ul > li > a{
 	font-family: 'Francois One', sans-serif;
+	font-size: 1.5em;
 	background-color: #FFFFFF;
 	color: #336699;
 	text-decoration: none;
@@ -93,6 +94,7 @@ div.wrapper {
 }
 
 main {
+	border: 2px solid white;
 	background-color: #C0C0C0;
 	text-align: justify;
 	height: 300px;
@@ -103,7 +105,7 @@ main {
 
 }
 div.home {
-
+	border: 2px solid white;
 	background-color: #C0C0C0;
 	text-align: justify;
 	height: 500px;
@@ -114,7 +116,7 @@ div.home {
 }
 
 div.about {
-
+	border: 2px solid white;
 	background-color: #C0C0C0;
 	text-align: justify;
 	height: 500px;
@@ -125,7 +127,7 @@ div.about {
 
 }
 div.services {
-
+	border: 2px solid white;
 	background-color: #C0C0C0;
 	text-align: justify;
 	height: 500px;
@@ -136,7 +138,7 @@ div.services {
 
 }
 div.projects {
-
+	border: 2px solid white;
 	background-color: #C0C0C0;
 	text-align: justify;
 	height:500px;
@@ -147,7 +149,7 @@ div.projects {
 
 }
 div.gallery {
-
+	border: 2px solid white;
 	background-color: #C0C0C0;
 	text-align: justify;
 	height: 500px;
@@ -169,7 +171,8 @@ div > h1 {
 
 }
 
-footer {
+footer > p {
+	background-color: #FFFFFF;
 	color:#336699;
 	text-align: center;
 }

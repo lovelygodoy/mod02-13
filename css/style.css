@@ -1,0 +1,177 @@
+/*CSS Reset*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+
+}
+
+body{
+	background: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+
+}
+
+
+header {
+
+	position:fixed;
+	height: 50%;
+	width: 125px;
+	padding: 10px;
+}
+
+header > div.logo {
+	background-color: grey;
+	height: 100px;
+	width: 100px;
+	margin-top: 5px; 
+	margin-bottom: 10px;
+	text-align: left;
+	border-radius: 10px;
+
+}
+
+img {
+	border-radius: 10px;
+}
+
+
+header > nav {
+
+	width: 100px;
+
+}
+
+nav > ul > li {
+	text-align: center;
+	font-size: 0.8em;
+	line-height: 50px;
+	list-style: none;
+} 
+nav > ul > li > a{
+	font-family: 'Francois One', sans-serif;
+	background-color: #FFFFFF;
+	color: #336699;
+	text-decoration: none;
+	display: block;
+	width: 100px;
+	padding: 5px;
+	height: 70px;
+	margin-bottom: 10px;
+	opacity: 0.8;
+	border-radius: 5px;
+	
+}
+
+a:hover {
+	background-color: #336699;
+	color: #fff;
+
+}
+
+
+div.wrapper {
+	background-color: #336699;
+	height:100%;
+	width: 90%;
+	padding: 20px;
+	margin: 0 125px auto;
+	float:left;
+	opacity: 0.8;
+
+}
+
+main {
+	background-color: #C0C0C0;
+	text-align: justify;
+	height: 300px;
+	width: 500px;
+	margin: 100px auto;
+	padding: 10px;
+	
+
+}
+div.home {
+
+	background-color: #C0C0C0;
+	text-align: justify;
+	height: 500px;
+	width: 100%;
+	margin: 50px auto;
+	padding: 10px;
+
+}
+
+div.about {
+
+	background-color: #C0C0C0;
+	text-align: justify;
+	height: 500px;
+	width: 100%;
+	margin: 50px auto;
+	padding: 10px;
+
+
+}
+div.services {
+
+	background-color: #C0C0C0;
+	text-align: justify;
+	height: 500px;
+	width: 100%;
+	margin: 50px auto;
+	padding: 10px;
+
+
+}
+div.projects {
+
+	background-color: #C0C0C0;
+	text-align: justify;
+	height:500px;
+	width: 100%;
+	margin: 50px auto;
+	padding: 10px;
+
+
+}
+div.gallery {
+
+	background-color: #C0C0C0;
+	text-align: justify;
+	height: 500px;
+	width: 100%;
+	margin: 50px auto;
+	padding: 10px;
+
+}
+
+div > h1 {
+	background-color: #336699;
+	color: #fff;
+	font-family: 'Francois One', sans-serif;
+
+}
+
+.content > h1 {
+	text-align: center;
+
+}
+
+footer {
+	color:#336699;
+	text-align: center;
+}
+
+
